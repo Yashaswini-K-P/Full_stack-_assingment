@@ -1,0 +1,7 @@
+Create the following pricing page layout using Bootstrap. 
+[use only bootstrap styling without creating your own custom style.css] 
+Use Bootstrap - grid & flex layout, utilities for margin & card and button components.
+How the layout looks on desktop:
+
+
+How it looks on screen-size till “md”(>= 768px) in bootstrap:
