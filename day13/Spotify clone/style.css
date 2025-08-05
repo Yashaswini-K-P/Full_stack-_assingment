@@ -21,8 +21,10 @@ body{
     flex:1;
     overflow:auto;
     border-radius:1rem;
+    padding:0 1.5rem 0 1.5rem;
 }
 .music-player{
+    background-color:black;
     height:72px;
     width:100%;
     position:fixed;
@@ -137,6 +139,7 @@ a{
     justify-content:space-between;
     align-items:center;
     padding:1rem 0 1rem 0;
+    z-index:5;
 }
 .sticky-nav-icons {
     margin:0.75rem;
@@ -154,4 +157,68 @@ a{
     .hide{
         display:none;
     }
+}
+
+.card{
+    background-color:#232323;
+    width:150px;
+    border-radius:0.5rem;
+    padding:1rem;
+    margin-left:1.5rem;
+    margin-top:1rem;
+}
+.cards-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.card-img{
+    border-radius:0.5rem;
+    width:100%;
+}
+.card-title{
+    font-weight:600;
+}
+.card-info{
+    font-size:0.85rem;
+    opacity:0.8;
+}
+.footer{
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.line{
+    width:90%;
+    height:30%;
+    border-top:1px solid white;
+    opacity:0.4;
+}
+
+.music-player{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.album{
+    width:25%;
+}
+.player{
+    width:50%;
+}
+.control{
+    width:25%;
+}
+.player-control{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.player-control-icon{
+    height:1rem;
+    margin-right:1.75rem;
+    opacity:0.7;
+}
+.player-control-icon:hover{
+    opacity:1;
 }
