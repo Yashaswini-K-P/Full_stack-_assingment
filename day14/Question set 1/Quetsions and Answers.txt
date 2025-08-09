@@ -1,0 +1,13 @@
+Qs. What is the value of age after this code runs?
+    let age = 23;
+    age+2;
+Ans. age is 23 itself.  here age+2 is not equal to age+=2.
+
+Qs. What is the value of avg after this code runs?
+    let hindi = 80;
+    let eng = 90;
+    let maths = 100;
+    let avg = (hindi + eng + maths)/ 3;
+Ans. (80 + 90 + 100)/3
+     (270)/3
+     =90

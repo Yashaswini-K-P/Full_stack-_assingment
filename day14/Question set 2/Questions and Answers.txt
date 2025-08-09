@@ -1,0 +1,7 @@
+Qs. What is the value of each variable in each line of code?
+    let num = 5;
+    let newNum = num++;
+    newNum = ++num;
+Ans. num = 5
+     newNum = 5   num=6 //Then incremented to 6 after assigning
+     newNum = 7   num=7 // it was 6 then pre increment to 7 before assigning.
