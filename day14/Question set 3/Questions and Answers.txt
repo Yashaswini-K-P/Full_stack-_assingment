@@ -1,0 +1,16 @@
+Qs. Find the errors in the following code?
+    a. let 1age=5;
+       let 2age=10;
+    Ans. You cannot start a variable name with digits instead 
+         let age1 = 5;
+         let age2 = 10;
+
+    b. let marks = 75;
+       let isPass = True;
+    Ans. There is no word called True, you might have trying to initialise
+         boolean true to isPass for that 
+         let isPass = true;
+    c. let isPass = 'true';
+    Ans. There is no error in this code, The isPass variable stores string
+         if you are trying to intitialise boolean then this is wrong instead
+         let isPass = true;

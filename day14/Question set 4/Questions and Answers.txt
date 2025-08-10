@@ -1,0 +1,25 @@
+Qs. Declare you name as a string and print its length in JS.
+Ans. let name="Yashu"
+     typeof name
+     name.length
+
+Qs. Declare your first name as a string and print its first character.
+Ans. let firstName = "Yashaswini"
+     firstName[0]
+
+Qs. Declare your first name as a string and print its last character.
+Ans. let firstName = "Yashaswini"
+     firstName[firstName.length - 1]
+
+Qs. What is the output of following code:
+    "yashu"+123
+Ans. 'yashu123'
+
+Qs. What are lengths of an empty string & a string with a single space?
+Ans. let name=""
+     name.length
+     --> 0
+
+     let name=" "
+     name.length
+     --> 1
