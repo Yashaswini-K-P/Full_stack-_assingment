@@ -1,0 +1,11 @@
+Qs. Create a trsffic light system that shows what to do based on color.
+Ans. let color = "red"
+     if(color==="red"){
+        console.log("Stop. light color is red");
+     }else if(color==="yellow"){
+        console.log("Slow Down.  light color is yellow");
+     }else if(color==="green"){
+        console.log("go.  light color is green");
+     }else{
+      console.log("traffic light is broken");
+     }
