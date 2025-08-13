@@ -1,0 +1,21 @@
+Qs. A "good string" is a string that starts with the letter 'a' & has 
+    a length > 3. Write a program to find a string is good or not.
+Ans. let s ="apple";
+     if(s[0]==='a' && s.length>3){
+         console.log("Good String");
+     }else{
+         console.log("not a Good string");
+     }
+
+Qs. Predict the output of the following code.
+    let num = 12;
+    if((num%3===0)&&((num+1==15) || (num-1==11))){
+        console.log("Safe");
+    }else{
+        console.log("Unsafe");
+    }
+Ans. Condition--->
+     (true) && (false || true)
+     true && true
+     true
+     So the answer is Safe.
