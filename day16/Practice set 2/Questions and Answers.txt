@@ -1,0 +1,9 @@
+Qs. For the given start of an array, change it to final form using methods.
+    start:['january', 'july', 'march', 'august']
+    final: ['july', 'june', 'march', 'august']
+Ans.
+let m=['january', 'july', 'march', 'august'];
+m.shift();
+m.shift();
+m.unshift("june");
+m.unshift("july");

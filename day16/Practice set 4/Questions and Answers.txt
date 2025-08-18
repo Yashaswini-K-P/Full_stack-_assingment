@@ -1,0 +1,14 @@
+Qs. Create a nested array to show the following tic-tac-toe game state.
+     X |   | O
+    ---|---|---
+       | X |   
+    ---|---|---
+     O |   | X
+Ans.
+let arr=[['X', null, 'O'],[ null, 'X', null],['O', null, 'X']];
+
+Then change all null values to O.
+arr[0][1]='O';
+arr[1][0]='O';
+arr[1][2]='O';
+arr[2][1]='O';

@@ -1,0 +1,17 @@
+Qs. For the given state of an array, change it to final form using splice.
+    start: ['january', 'july', 'march', 'august']
+    final: ['july', 'june', 'march', 'august']
+Ans.
+start.splice(0, 1);
+start.splice(1, 0, 'june');
+        OR
+start.splice(0, 2, 'july', 'june');
+
+
+Qs. Return the index of the "javascript" from the given array. if it was reversed.
+    ['c', 'c++', 'html', 'javascript', 'python', 'java', 'c#', 'sql']
+Ans. 
+start.reverse().indexOf('javascript');
+            OR
+start.length - 1- start.indexOf('javascript');
+

@@ -1,0 +1,20 @@
+Qs. For the given String:
+    let msg = "help!";
+    Trim it & convert it to uppercase.
+Ans. 
+let msg = "   help!   ";
+console.log(msg.trim().toUpperCase());
+
+Qs. For the String -. let name ="ApnaCollege", predict the output for following:
+    name.slice(4, 9)
+    name.indexOf("na")
+    name.repalce("Apna", "Our")
+Ans.
+-->Colle
+-->2
+-->OurCollege
+
+Qs. Sepearte the "College" part in above string & replace 't' with 't' in it.
+Ans. 
+let name ="ApnaCollege";
+console.log(name.slice(4).replace('l','t'));
