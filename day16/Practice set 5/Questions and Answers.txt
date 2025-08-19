@@ -1,0 +1,58 @@
+Qs1. Write a JavaScript program to get the first n elements of an array. [n can be any
+    positive number].
+    For example: for array [7, 9, 0,-2] and n=3
+    Print, [7, 9, 0]
+Ans.
+let n=5;
+let arr = [6, 7, 67, 5, 45, 54, 76];
+let ans = arr.slice(0, n);
+console.log(ans);
+
+Qs2. Write a JavaScript program to get the last n elements of an array. [n can be any
+    positive number].
+    For example: for array [7, 9, 0,-2] and n=3
+    Print, [9, 0,-2]
+Ans.
+let n=2;
+let arr = [6, 7, 67, 5, 45, 54, 76];
+let ans = arr.slice(-n);
+console.log(ans);
+
+
+Qs3. Write a JavaScript program to check whether a string is blank or not.
+Ans.
+let str=" ";
+if(str.length==0){
+    console.log("String is empty");
+}else{
+    console.log("string is not empty");
+}
+
+
+Qs4. Write a JavaScript program to test whether the character at the given (character)
+    index is lower case.
+Ans.
+let str="gANgA"
+let idx =2;
+if(str[idx]==str[idx].toLowerCase()){
+    console.log("Lower Case");
+}else{
+    console.log("Not Lower Case");
+}
+
+Qs5. Write a JavaScript program to strip leading and trailing spaces from a string.
+Ans.
+let str=prompt("Enter a string");
+console.log(`Original String: ${str}`);
+console.log(`String without spaces: ${str.trim()}`);
+
+Qs6. Write a JavaScript program to check if an element exists in an array or not.
+Ans.
+let arr=['lemon', 76, 0, 'jungle'];
+let item=0;
+
+if(arr.indexOf(item)==-1){
+    console.log("Not Found");
+}else{
+    console.log(`Found at index ${arr.indexOf(item)}`);
+}
