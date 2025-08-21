@@ -1,0 +1,6 @@
+Qs. Create a Function to roll a dice & always display the value of the dice(1 to 6).
+Ans.
+function dice(){
+    console.log(Math.floor(Math.random()*6)+1);
+}
+dice();

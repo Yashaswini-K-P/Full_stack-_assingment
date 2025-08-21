@@ -1,0 +1,7 @@
+Qs. Create a Function that gives us the average of 3 numbers.
+Ans.
+function average(a, b, c){
+    let avg = (a+b+c)/3;
+    console.log(avg);
+}
+average(9, 6, 8);

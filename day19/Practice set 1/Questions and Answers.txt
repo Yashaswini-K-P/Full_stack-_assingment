@@ -1,0 +1,9 @@
+Qs. Create a fuunction which prints poem
+Ans.
+function poem(){
+    console.log("Twinkle Twinkle little star");
+    console.log("How I wonder, what you are");
+    console.log("Up above the words so high");
+    console.log("Like a diamond in the star");
+}
+poem();

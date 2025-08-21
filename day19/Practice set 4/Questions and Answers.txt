@@ -1,0 +1,8 @@
+Qs. Create a function that prints the multiplication table of a number.
+Ans.
+function tables(num){
+    for(let i=1; i<=10; i++){
+        console.log(`${num}X${i}=${num*i}`);
+    }
+}
+tables(8);

@@ -1,0 +1,12 @@
+Qs. Create a function that returns the concatenation of all strings in an array.
+Ans.
+let str=["Hello", "What", "is", "your", "name"];
+
+function concat(str){
+    let res="";
+    for(sub of str){
+        res+=sub;
+    }
+    return res;
+}
+console.log(concat(str));
