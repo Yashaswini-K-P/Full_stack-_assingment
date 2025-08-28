@@ -1,0 +1,11 @@
+Qs. Write an arrow function that returns the square of a number 'n'.
+Ans.
+const square=(n)=>n*n;
+console.log(square(5));
+
+Qs. Write a function that prints "Hello World" 5 times at an interval of 2s each.
+Ans.
+let id=setInterval(()=>{
+    console.log("Hello World");
+}, 2000);
+setTimeout(()=>clearInterval(id), 10000);

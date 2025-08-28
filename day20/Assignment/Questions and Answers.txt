@@ -1,0 +1,64 @@
+Qs. Write an arrow function named array Average that accepts an array of numbers
+    and  returns the average of those numbers.
+Ans.
+const average= (arr)=>{
+    let sum=0;
+    for(let i=0; i<arr.length; i++){
+        sum+=arr[i];
+    }
+    return sum/arr.length;
+}
+let arr=[2, 2, 4, 4, 6, 6];
+console.log(average(arr));
+
+Qs.Write an arrow function named isEven() that takes a single number as
+    argument and returns if it is even or not.
+Ans.
+const isEven=(n)=>n%2==0;
+console.log(isEven(8));
+
+Qs. What is the output of the following code:
+    const object = {
+        message: 'Hello, World', 
+        logMessage(){
+            console.log(this.message);
+        }
+    };
+    setTimeout(object.logMessage, 1000);
+Ans.After a delay of 1 second, undefined is logged to the console.
+    while the setTimeout() function uses the object.logMessage as a callback, still
+    , it invokes object.logMessage as a regular function, rather than a method.
+
+    And during a regular function invocation this(keyword) equals the global object, which is a window in the case
+    of the browser environment.
+
+
+    That's whu console.log(this.message) inside logMessage method logs
+    window.message, which is undefined.
+
+
+
+
+Qs. What is the output of the following code:
+    let length = 4;
+    function callback(){
+        console.log(this.length);
+    }
+    const object = {
+        length:5,
+        method(callback){
+            callback();
+        },
+    };
+    object.method(callback, 1, 2);
+Ans.
+only first argumnet is taken other arguments are ignored as they are extra.
+Since callback() is called as a regular function, not as object.callback(), this inside it will:
+
+In strict mode: be undefined.
+
+In non-strict mode: default to the global object (window in browsers, global in Node).
+
+The global object (window) has a property length, which represents the number of frames in the window.
+
+On a typical tab, window.length is usually 0.
