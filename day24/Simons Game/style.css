@@ -1,0 +1,41 @@
+body{
+    min-height:70vh;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.btn-container{
+    display:flex;
+}
+
+.btn{
+    height:150px;
+    width:150px;
+    margin:0.5rem;
+    border-radius:20%;
+    border:2px black solid;
+}
+
+.red{
+    background-color:rgb(242, 31, 31);
+}
+
+.yellow{
+    background-color:rgb(244, 244, 32);
+}
+
+.green{
+    background-color:rgb(45, 154, 45);
+}
+
+.blue{
+    background-color:rgb(45, 45, 156);
+}
+
+.flash{
+    background-color:white;
+}
